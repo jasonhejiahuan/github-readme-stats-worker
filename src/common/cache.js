@@ -62,7 +62,7 @@ const CACHE_TTL = {
     MIN: DURATIONS.TWELVE_HOURS,
     MAX: DURATIONS.TWO_DAY,
   },
-  ERROR: DURATIONS.TEN_MINUTES,
+  ERROR: DURATIONS.TWO_HOURS,
 }
 
 /**
@@ -122,6 +122,7 @@ const setErrorCacheHeaders = () => {
       `max-age=${CACHE_TTL.ERROR}, ` +
       `s-maxage=${CACHE_TTL.ERROR}, ` +
       `stale-while-revalidate=${DURATIONS.ONE_DAY}`,
+    'X-Card-Error': '1',
   }
 }
 
