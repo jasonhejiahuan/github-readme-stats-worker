@@ -29,9 +29,5 @@ id = "a4397ae73762484ca3fb3d598f0f1ee5"
 enabled = true
 invocation_logs = true
 
-[observability.logs]
-enabled = true
-invocation_logs = true
-
 [observability.traces]
 enabled = true
