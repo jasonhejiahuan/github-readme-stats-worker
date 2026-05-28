@@ -24,3 +24,14 @@ dataset = "github_readme_stats"
 [[kv_namespaces]]
 binding = "SVG_CACHE"
 id = "a4397ae73762484ca3fb3d598f0f1ee5"
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = true
