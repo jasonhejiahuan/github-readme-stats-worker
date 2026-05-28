@@ -23,4 +23,4 @@ dataset = "github_readme_stats"
 # KV namespace for cross-datacenter caching (stale-if-error fallback)
 [[kv_namespaces]]
 binding = "SVG_CACHE"
-id = "699e00110ab04c8b881692b7c243479b"
+id = "a4397ae73762484ca3fb3d598f0f1ee5"
